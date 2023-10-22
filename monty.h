@@ -5,6 +5,10 @@
 #include <stdlib.h>
 #include <strings.h>
 
+char buffer[128];
+void push(stack_t **stack, int data);
+void pall(stack_t **stack);
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
