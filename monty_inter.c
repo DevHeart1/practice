@@ -1,6 +1,6 @@
 #include "monty.h"
 
-int main(int argc, char argv)
+int main(int argc, char **argv)
 {
 	if (argv[1] == NULL || argc != 2)
 	{
@@ -17,7 +17,8 @@ int main(int argc, char argv)
 	{
 		fprintf(stderr, "Error: Can't open file %s\n" filepath);
 		exit(EXIT_FAILURE);
-	}
+	}6+
+	.
 
 	char buffer[128];
 	int line_num;
