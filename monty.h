@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <strings.h>
+#include <ctype.h>
 
 char buffer[128];
 void push(stack_t **stack, int data);
@@ -40,6 +41,7 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-
+void op_pall(stack_t **stack, unsigned int line_number);
+void op_push(stack_t **stack, unsigned int line_number);
 
 #endif
