@@ -1,6 +1,6 @@
 normal javascript
-//let header = document.querySelector("header");
-//header.style.color = "#FF0000";
+let header = document.querySelector("header");
+header.style.color = "#FF0000";
 
 jquery syntax
 //let header = $("header");
