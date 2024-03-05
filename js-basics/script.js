@@ -3,23 +3,23 @@ let header = document.querySelector("header");
 header.style.color = "#FF0000";
 
 jquery syntax
-//let header = $("header");
-//header.css("color", "#FF0000");
+let header = $("header");
+header.css("color", "#FF0000");
 
 
-//let red_header = $("red_header");
-//let header = $("header");
-//red_header.click(function() {
-//    header.css("color", "#FF0000");
-//});
+let red_header = $("red_header");
+let header = $("header");
+red_header.click(function() {
+   header.css("color", "#FF0000");
+});
 
 
 
-//let red_header = $("red_header");
-//let header = $("header");
-//red_header.click(function() {
-//    header.addClass("red");
-//});
+let red_header = $("red_header");
+let header = $("header");
+red_header.click(function() {
+   header.addClass("red");
+});
 
 
 
